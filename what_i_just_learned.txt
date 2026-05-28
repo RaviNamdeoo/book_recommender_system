@@ -12,3 +12,4 @@ df.pivot_table(
 CSR Matrix (Compressed Sparse Row) stores a matrix by saving only the non-zero values instead of storing everything including zeros.
 this makes it memory efficient, so now the csr matrix will only remember non-zero ratings
 
+The NearestNeighbor returns 2 values that are distance and suggestion
