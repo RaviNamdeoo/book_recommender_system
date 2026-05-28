@@ -1,0 +1,6 @@
+drop_duplicates plays an important role in deleting duplicate rows, While the drop_duplicates searches for exact duplicate rows,
+this enables us to find duplicate rows from that specific columns
+ex. drop_duplicates(['user_id','title']) -> means delete only those rows which is having rows from this column same 
+
+CSR Matrix (Compressed Sparse Row) stores a matrix by saving only the non-zero values instead of storing everything including zeros.
+this makes it memory efficient, so now the csr matrix will only remember non-zero ratings
