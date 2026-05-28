@@ -4,3 +4,5 @@ streamlit
 scipy
 numpy
 pandas
+
+-e .
